@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Quiz</title>
+  <link href="quiz-maker.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+        <li><a href="index.html">Back to Home</a></li>
+    </ul>
+</nav>
+  <div id="container">
+    <div class="holder">
+      <header id="header">
+        <h1>Quiz Maker</h1>
+      </header>
+      <main class="main">	
+        <form id="questionContainer">
+          <button type="submit" name="submit" value="submit">Submit</button>
+          <input type="text" name="name" placeholder="Enter your question here" onfocus="this.value=''">
+        </form>
+        <ol id="questionnaire">
+          <div class="list">
+            <span> Question List </span>
+          </div>
+        </ol>	
+      </main>
+    </div>
+  </div>
+  <script src="quiz-maker.js"></script>
+</body>
+</html>

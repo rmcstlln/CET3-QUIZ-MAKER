@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+}
+
+body {
+  color: #333;
+  background: #e3e9ff;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body ol {
+  font-size: 24px;
+}
+
+#container {
+  height: 100vh;
+  padding: 80px;
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.holder {
+  background: #cbc0af;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 60vw;
+}
+
+#header {
+  background: #583f2b;
+  color: #fff;
+  padding: 25px 35px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+#questionContainer {
+  position: relative;
+  margin: 0 0 20px;
+}
+
+#questionContainer input {
+  border: 3px solid #000;
+  padding: 10px 100px 10px 10px;
+  width: 100%;
+  height: 50px;
+  color: #000;
+}
+
+#questionContainer button {
+  padding: 0 1em;
+  background: #583f2b;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#questionContainer button:hover {
+  background-color: #be9a6d;
+  color: black;
+}
+
+#questionnaire li {
+  padding: 20px;
+  margin: 0 0 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+#questionnaire li span,
+#questionnaire li input[type="text"] {
+  margin: 0 0 5px;
+  display: block;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#questionnaire li input[type="text"] {
+  border-radius: 10px;
+  padding: 10px 100px 10px 10px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 50px;
+}
+.list{
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #000;
+}
+#questionnaire li label {
+  font-size: 14px;
+  display: block;
+  margin: 0 0 10px;
+  color: rgba(112, 112, 112, .55);
+}
+
+
+#questionnaire li button {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 5px 0 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: white;
+  background: #583f2b;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+#questionnaire li button:hover {
+  background-color: #be9a6d;
+  color: black;
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 95px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .5s;
+}
+.navbar ul li a:hover{
+	background: #be9a6d;
+	border-radius: 25px;
+}
