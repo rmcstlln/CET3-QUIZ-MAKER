@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Online</title>
+    <link rel="stylesheet" href="quiz-online.css">
+</head>
+<body class="flex">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Back to Home</a></li>
+        </ul>
+    </nav>
+    <div class="quiz" id="quizContainer">
+        <div class="question-1">General Science Quiz</div>
+        <div id="question" class="question">
+            The darkest part of the shadow is
+        </div>
+        <div class="option-box">
+            <label class="choice"><input type="radio" name="option" value="1" /><span id="opt1">Umbra</span></label>
+            <label class="choice"><input type="radio" name="option" value="2" /><span id="opt2">Penumbra</span></label>
+            <label class="choice"><input type="radio" name="option" value="3" /><span id="opt3">Antumbra</span></label>
+            <label class="choice"><input type="radio" name="option" value="4" /><span id="opt4">None of these</span></label>
+        </div>
+        <div class="next-btn">
+            <button id="nextButton" class="btn" onclick="loadNextQuestion();">NEXT</button>
+        </div>
+    </div>
+    <div id="result" class="container-result" style="display:none;">
+    </div>
+    <script src="quiz-online.js"></script>
+</body>
+</html>

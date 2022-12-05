@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+}
+.wrapper{
+	background: url(background.jpg) no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 95px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .5s;
+}
+.navbar ul li a:hover{
+	background: #be9a6d;
+	border-radius: 25px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: #583f2b;
+	font-size: 120px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: #583f2b;
+	font-size: 30px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	margin: 5px;
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background: #583f2b;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons button:hover{
+	background: #be9a6d;
+}
+
+/*ABOUT*/
+.service{
+	background: #dbd0ca;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+	
+}
+.title h2{
+	color: #583f2b;
+	font-size: 80px;
+	width: 1130px;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.flexbox{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.card{
+	height: 305px;
+	width: 265px;
+	padding: 20px 35px;
+	background: #cbc0af;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	color: #583f2b;
+	align-items: center;
+	text-align: center;
+}
+h5{
+	color: #583f2b;
+	font-size: 29px;
+	font-weight: bold;
+}
+h6{
+	color: #583f2b;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #583f2b;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+/*CONTACT*/
+.contacts{
+	background: #dbd0ca;
+	width: 100%;
+	height: 100vh;
+}
+.contact-header h2{
+	color: #583f2b;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.contact-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.contact-card{
+	height: 300px;
+	width: 300px;
+	padding: 20px 35px;
+	background: #cbc0af;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	align-items: center;
+}
+.contact-card i{
+	font-size: 80px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #583f2b;
+}
+.contact-title h5{
+	color: #583f2b;
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.sentence p{
+	color: #583f2b;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
